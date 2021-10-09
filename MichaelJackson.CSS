@@ -1,0 +1,62 @@
+body
+    {
+    margin:0px;
+    }
+    header
+    {
+    padding:10px;
+    background-color:blue;
+    text-align:center;
+    color:black;
+    }
+    .nav
+    {
+    background-color:blue;
+    padding:5px;
+    }
+    .nav li
+    {
+    list-style:none;
+    display:inline-block;
+    padding:10px;
+    }
+    .nav a
+    {
+    color:yellow;
+    }
+    .nav ul li a:hover
+    {
+    color:pink;
+    }
+    #Main
+    {
+    height:550px;
+    }
+    #LeftSide
+    {
+    width:70%;
+    min-height:550px;
+    background-color:cyan;
+    background-image:radial-gradient(red, green, purple, orange);
+    text-align:left;
+    float:left;
+    font-size:small;
+    color:white;
+    }
+    #RightSide
+    {
+    float:right;
+    width:30%;
+    min-height:550px;
+    background-color:yellow;
+    background-image:url("MichaelJackson.jpg");
+    background-size:contain;
+    background-position:center;
+    }
+    footer
+    {
+    height:45px;
+    background-color:silver;
+    text-align:center;
+    padding-top:10px;
+    }
